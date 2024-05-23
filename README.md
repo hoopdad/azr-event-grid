@@ -14,7 +14,7 @@ export AEG_SAS_KEY=`terraform output domain_key | tr -d '"'`
 export EVENT_GRID_ENDPOINT=`terraform output domain_endpoint | tr -d '"'`
 ```
 
-You can run those env variable lines whenever you want after terraform apply as long as the .tfstate file is present. 
+You can run those env variable lines whenever you want after terraform apply as long as the .tfstate file is present.
 
 ## Validate
 
